@@ -584,6 +584,13 @@ nav a.active {
   text-decoration: none;
 }
 
+/* Brand Filter */
+.brand-filter-btn.active {
+  background: var(--primary) !important;
+  color: #fff !important;
+  border-color: var(--primary) !important;
+}
+
 /* Brand Labels */
 .brand-label {
   display: inline-block;
