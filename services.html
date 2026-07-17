@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - GTM COMPUTERS | Computer Repair & Networking Kampala</title>
+  <meta name="description" content="Professional computer repair, maintenance, networking installation, and IT services in Kampala, Uganda by GTM COMPUTERS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="announcement">
+  <div class="container">Free delivery within Kampala on all full computer sets | <a href="https://wa.me/256704878505" target="_blank">Order Now via WhatsApp</a></div>
+</div>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="images/LOGO.png" alt="GTM COMPUTERS">
+    </a>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="header-right">
+      <div class="search-wrap">
+        <i class="fas fa-search"></i>
+        <input type="text" id="search-input" placeholder="Search products...">
+      </div>
+      <button id="dark-toggle" class="dark-toggle" title="Toggle dark mode"><i class="fas fa-moon"></i></button>
+      <button id="cart-icon" class="cart-icon" title="Cart">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-badge" id="cart-badge">0</span>
+      </button>
+      <a href="tel:+256704878505"><i class="fas fa-phone"></i> +256 704 878505</a>
+      <a href="https://wa.me/256704878505" target="_blank" class="whatsapp-header"><i class="fab fa-whatsapp"></i> Order Now</a>
+    </div>
+  </div>
+  <nav>
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<div class="page-heading">
+  <div class="container">
+    <h1>Our Services</h1>
+    <p>Professional computer and networking services you can trust</p>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <div class="container"><a href="index.html">Home</a> <span>/</span> <span>Services</span></div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-laptop-medical"></i>
+        <h3>Computer Repair</h3>
+        <p>Expert diagnosis and repair for all desktop and laptop brands. We fix hardware and software issues quickly and reliably, from startup problems to component replacement.</p>
+        <a href="https://wa.me/256704878505?text=I%20need%20computer%20repair%20services" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Repair</a>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-tools"></i>
+        <h3>PC Maintenance</h3>
+        <p>Keep your computer running smoothly with our regular maintenance services. We offer cleaning, OS installation, software updates, virus removal, and performance optimization.</p>
+        <a href="https://wa.me/256704878505?text=I%20need%20PC%20maintenance%20services" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Book Service</a>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-network-wired"></i>
+        <h3>Networking Installation</h3>
+        <p>Complete networking solutions for your home or business. We handle router setup, cable installation (CAT5e/CAT6), Wi-Fi configuration, and full office network deployment.</p>
+        <a href="https://wa.me/256704878505?text=I%20need%20networking%20installation" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Get Quote</a>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-headset"></i>
+        <h3>IT Consulting</h3>
+        <p>Professional advice on hardware procurement, network design, and IT infrastructure planning. We help businesses make informed technology decisions that save money and improve productivity.</p>
+        <a href="https://wa.me/256704878505?text=I%20need%20IT%20consulting" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Consult Now</a>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Data Recovery</h3>
+        <p>Recover lost or corrupted data from hard drives, SSDs, USB drives, and other storage devices. Our team uses professional tools to safely retrieve your important files.</p>
+        <a href="https://wa.me/256704878505?text=I%20need%20data%20recovery%20services" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Request Help</a>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-sync-alt"></i>
+        <h3>System Upgrades</h3>
+        <p>Boost your computer's performance with RAM upgrades, SSD replacements, and processor upgrades. We recommend and install the best options for your needs and budget.</p>
+        <a href="https://wa.me/256704878505?text=I%20need%20system%20upgrade%20services" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Inquire Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cart Overlay -->
+<div id="cart-overlay" class="cart-overlay"></div>
+
+<!-- Cart Drawer -->
+<div id="cart-drawer" class="cart-drawer">
+  <div class="cart-drawer-header">
+    <h3><i class="fas fa-shopping-bag"></i> Your Cart</h3>
+    <button id="cart-close" class="cart-drawer-close">&times;</button>
+  </div>
+  <div class="cart-items" id="cart-items">
+    <div class="cart-empty"><i class="fas fa-shopping-cart"></i><p>Your cart is empty</p></div>
+  </div>
+  <div class="cart-drawer-footer">
+    <div class="cart-total">Total: <span id="cart-total">UGX 0</span></div>
+    <button id="cart-checkout" class="btn btn-whatsapp" style="width:100%;justify-content:center"><i class="fab fa-whatsapp"></i> Order via WhatsApp</button>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>GTM COMPUTERS</h4>
+      <p>Your trusted partner in computers and networking. Quality desktops, full sets, and networking solutions at competitive prices in Kampala, Uganda.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="products.html#desktops">Desktop Computers</a>
+      <a href="products.html#laptops">Laptops</a>
+      <a href="products.html#fullsets">Full Computer Sets</a>
+      <a href="products.html#accessories">Accessories</a>
+      <a href="products.html#networking">Networking Equipment</a>
+      <a href="services.html">Repair Services</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+256704878505"><i class="fas fa-phone"></i> +256 704 878505</a>
+      <a href="https://wa.me/256704878505" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="mailto:gtmcomputers296@gmail.com"><i class="fas fa-envelope"></i> Email Us</a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/share/17Qry5giNd/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/gtm_computers_uganda?igsh=MWpza3QwZGxieWVmeA==" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@gtm.computers" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 GTM COMPUTERS. All rights reserved. | Kampala, Uganda</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/256704878505" target="_blank" class="float-wa" title="Order on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<button id="back-top" class="back-top" title="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<div id="lightbox" class="lightbox">
+  <button id="lightbox-close" class="lightbox-close">&times;</button>
+  <img id="lightbox-img" src="" alt="Enlarged view">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
